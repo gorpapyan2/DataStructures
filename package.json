@@ -1,0 +1,18 @@
+{
+    "name": "data_structures",
+    "version": "1.0.0",
+    "description": "A simple application demonstrating data structures in TypeScript",
+    "main": "index.js",
+    "scripts": {
+        "start": "ts-node linkedList.ts"
+    },
+    "author": "Gor Papyan",
+    "license": "ISC",
+    "devDependencies": {
+        "typescript": "^5.7.2"
+    },
+    "dependencies": {
+        "arg": "^5.0.2",
+        "ts-node": "^10.9.2"
+    }
+}
