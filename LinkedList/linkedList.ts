@@ -2,7 +2,7 @@ import { ILinkedList } from "./interfaces";
 import { DLinkListNode } from "./linkedListNode";
 
 
-export class LinkedList<T> implements ILinkedList<T> {
+class LinkedList<T> implements ILinkedList<T> {
     private head: DLinkListNode<T> | null = null; // Reference to the first node of the linked list
     private tail: DLinkListNode<T> | null = null; // Reference to the last node of the linked list
     private length: number = 0; // Keeps track of the number of nodes in the linked list
@@ -127,3 +127,5 @@ export class LinkedList<T> implements ILinkedList<T> {
         return null;
     }
 }
+
+export { LinkedList };
